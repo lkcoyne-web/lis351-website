@@ -244,15 +244,11 @@ a:hover { text-decoration: underline; }
 }
 
 .footer-inner {
-  /* TODO O (Footer layout):
-     Arrange footer-left on the left and footer link columns on the right.
-     Requirements:
-       - Use flexbox
-       - Add a gap (e.g., 24px)
-       - Space items out (left/right)
-  */
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
 }
-
 .footer-left {
   max-width: 360px;
   color: #666;
