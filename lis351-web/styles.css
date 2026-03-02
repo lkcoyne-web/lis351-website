@@ -32,7 +32,7 @@ a:hover { text-decoration: underline; }
   background: #fff;
 }
 
-.header-inner {.header-inner {
+.header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
