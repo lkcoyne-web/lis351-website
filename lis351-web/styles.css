@@ -45,18 +45,18 @@ a:hover { text-decoration: underline; }
        - Center items vertically
        - Put space between left and right
   */
-}
+
 
 .brand {
   font-size: 28px;
   font-weight: 700;
 }
 
-.brand .dot {
+.brand .dot {color: #3a88a8;}
   /* TODO B (Color):
      Make the dot a light blue accent color (choose a readable blue).
   */
-}
+
 
 .site-nav a {
   margin-left: 18px;
