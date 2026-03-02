@@ -73,17 +73,17 @@ a:hover { text-decoration: underline; }
 
 /* ===== Hero ===== */
 .hero {
-  /* TODO C (Background image hero):
-     Turn this into a hero banner with a background image.
-     Requirements:
-       - Use a background image URL (use the one below)
-       - Make it cover the area and center it
-       - Add a light overlay so text is readable (hint: use a linear-gradient + image)
-       - Set a minimum height (e.g., 360px)
-  */
-  /* My image:
-     https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=60
-  */
+  background: linear-gradient(
+      rgba(255,255,255,0.7),
+      rgba(255,255,255,0.7)
+    ),
+    url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=60");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-content {
